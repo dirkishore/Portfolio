@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="College Social Media"
               description="A College Social Media application is a web-based programme that is tailored to a specific college. This curriculum brings all students on campus together, allowing them to meet new individuals throughout their time at college. Managed the development of an information-sharing platform for placement officers, enabling streamlined communication and coordination on upcoming college events."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/dirkishore/College_Social_Media.git"
               demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
