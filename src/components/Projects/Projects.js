@@ -28,7 +28,7 @@ function Projects() {
               title="Meme Generator"
               description="Meme Generator is a website where we can generate our memes and share it in any social media sites. It is build on React Js. Technologies used: Axios, JSON."
               ghLink="https://github.com/dirkishore/meme-generator.git"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://dirkishore.github.io/meme-generator/"
             />
           </Col>
 
