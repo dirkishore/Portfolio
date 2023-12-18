@@ -1,12 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.de770f5e.css",
-    "main.js": "/Portfolio/static/js/main.c57f9591.js",
+    "main.js": "/Portfolio/static/js/main.d7af2dca.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/leaf.png": "/Portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/emotion.png": "/Portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/Portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/expenseTracker.png": "/Portfolio/static/media/expenseTracker.6ad25b3cf585c01d17f1.png",
     "static/media/spicy.png": "/Portfolio/static/media/spicy.5d335f998325ac39d599.png",
     "static/media/memeGenerator.png": "/Portfolio/static/media/memeGenerator.07fb4fa5f332b9573d7d.png",
     "static/media/CollegeSocialMedia.png": "/Portfolio/static/media/CollegeSocialMedia.d4ed24da5e7e9f59e10e.png",
@@ -19,12 +17,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
     "main.de770f5e.css.map": "/Portfolio/static/css/main.de770f5e.css.map",
-    "main.c57f9591.js.map": "/Portfolio/static/js/main.c57f9591.js.map",
+    "main.d7af2dca.js.map": "/Portfolio/static/js/main.d7af2dca.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de770f5e.css",
-    "static/js/main.c57f9591.js"
+    "static/js/main.d7af2dca.js"
   ]
 }
