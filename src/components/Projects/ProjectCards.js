@@ -43,7 +43,7 @@ function ProjectCards(props) {
             style={{ marginLeft: "10px" }}
           >
             <BsDownload /> &nbsp;
-            {"Download"}
+            {"Demo"}
           </Button>
         )}
       </Card.Body>
