@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { BsDownload } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
@@ -31,6 +32,18 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+
+        {props.downloadApk && (
+          <Button
+            variant="primary"
+            href={props.downloadApk}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <BsDownload /> &nbsp;
+            {"Download"}
           </Button>
         )}
       </Card.Body>

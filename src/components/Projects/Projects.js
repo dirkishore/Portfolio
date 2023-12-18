@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import CollegeSocialMedia from "../../Assets/Projects/CollegeSocialMedia.png";
 import memeGenerator from "../../Assets/Projects/memeGenerator.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import spicy from "../../Assets/Projects/spicy.png";
+import ExpenseTracker from "../../Assets/Projects/expenseTracker.png";
 
 function Projects() {
   return (
@@ -23,12 +21,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={memeGenerator}
+              imgPath={ExpenseTracker}
               isBlog={false}
-              title="Meme Generator"
-              description="Meme Generator is a website where we can generate our memes and share it in any social media sites. It is build on React Js. Technologies used: Axios, JSON."
-              ghLink="https://github.com/dirkishore/meme-generator.git"
-              demoLink="https://dirkishore.github.io/meme-generator/"
+              title="Expense Tracker"
+              description="Expense tracker is a mobile app build on React native. It is a simple application which is used to track your day to day expenses, It allows you to add, remove and delete an Expense. It has two UI on Home screen, one shows Recent expense and another shows All expenses."
+              ghLink="https://github.com/dirkishore/ExpensesTracker.git"
+              downloadApk="https://expo.dev/artifacts/eas/7HJ3KGCq44gvbqCTWPL4FD.apk"
             />
           </Col>
 
@@ -43,6 +41,19 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={memeGenerator}
+              isBlog={false}
+              title="Meme Generator"
+              description="Meme Generator is a website where we can generate our memes and share it in any social media sites. It is build on React Js. Technologies used: Axios, JSON."
+              ghLink="https://github.com/dirkishore/meme-generator.git"
+              demoLink="https://dirkishore.github.io/meme-generator/"
+            />
+          </Col>
+        </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CollegeSocialMedia}
